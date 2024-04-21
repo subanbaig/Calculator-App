@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 25</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Calculator App</h1>
+
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                <div class="display">
+                    <input id="inputField" style="background-color:#2388FF; color: white;" type="text" name="display">
+                </div>
+                <div>
+                    <input onclick="perc()"; style="background-color: #F5F7FF;" type="button" value="%">
+                    <input onclick="squareNum()"; style="background-color: #F5F7FF;" type="button" value="X2">
+                    <input onclick="deleteChar()"; style="background-color: #F5F7FF;" type="button" value="DE">    
+                    <input onclick="clrAll('')"; style="background-color: #1F2B54; color: white;" type="button" value="C">
+                </div>
+                <div>
+                    <input onclick="getValue('7')"; type="button" value="7">
+                    <input onclick="getValue('8')"; type="button" value="8">
+                    <input onclick="getValue('9')"; type="button" value="9">
+                    <input onclick="getValue('-')"; style="background-color: #FF445A; color: white;" type="button" value="-">
+                </div>
+                <div>
+                    <input onclick="getValue('4')"; type="button" value="4">
+                    <input onclick="getValue('5')"; type="button" value="5">
+                    <input onclick="getValue('6')"; type="button" value="6">
+                    <input onclick="getValue('/')"; style="background-color: #2388FF ; color: white;" type="button" value="/">
+                </div>
+                <div>
+                    <input onclick="getValue('1')"; type="button" value="1">
+                    <input onclick="getValue('2')"; type="button" value="2">
+                    <input onclick="getValue('3')"; type="button" value="3">
+                    <input onclick="getValue('*')"; style="background-color: #FFC804; color: white;" type="button" value="*">
+                </div>
+                <div>
+                    <input onclick="getValue('.')"; type="button" value=".">
+                    <input onclick="getValue('0')"; type="button" value="0">
+                    <input onclick="equal()"; style="background-color: #F5F7FF;" type="button" value="=">
+                    <input onclick="getValue('+')"; style="background-color: #64DE78; color: white;" type="button" value="+">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+
+<script src="app.js"></script>
+</html>
